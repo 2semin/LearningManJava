@@ -13,16 +13,18 @@ public class CircleDemo {
 	}
 
 }
-
+/* 클래스 선언 */
 class Circle{
 	private double radius; // 캡슐화
 	
+	// 접근자
 	public double getRadius() {
 		return radius;
 	}
 	
+	//설정자
 	public void setRadius(double r) {
-		this.radius = r;
+		radius = r;
 	}
 	
 	double findArea() {
