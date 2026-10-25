@@ -1,5 +1,5 @@
 package ch05;
-
+//클래스 객체 생성
 public class CircleDemo {
 
 	public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class CircleDemo {
 	}
 
 }
-
+//클래스 선언
 class Circle {
 	double radius;
 	
