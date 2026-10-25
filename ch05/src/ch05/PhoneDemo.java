@@ -12,6 +12,8 @@ class Phone {
 
 public class PhoneDemo { 
 	public static void main(String[] args) {
+		
+		// 객체 생성과 참조변수
 		Phone myPhone = new Phone();
 		
 		myPhone.model = "Galaxy S8";
