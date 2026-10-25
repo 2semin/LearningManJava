@@ -15,7 +15,7 @@ public class CircleDemo {
 }
 
 class Circle{
-	private double radius;
+	private double radius; // 캡슐화
 	
 	public double getRadius() {
 		return radius;
