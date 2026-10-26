@@ -7,7 +7,7 @@ public class ShapeDemo {
 		Circle c1 = new Circle();
 		Rectangle r1 = new Rectangle();
 		
-		c1.radius = 10;
+		c1.setRadius(10.0);
 		System.out.println(c1.findArea());
 		
 		r1.width = 5;

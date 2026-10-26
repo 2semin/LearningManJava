@@ -2,7 +2,16 @@ package ch06_1;
 
 public class Circle {
 	
-	double radius; // 필드
+	
+	private double radius;// 필드
+	
+	public double getRadius() {
+		return radius;
+	}
+	public void setRadius(double radius) {
+		this.radius = radius;
+	}
+	
 	
 	//Method
 	double findArea(){
