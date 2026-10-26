@@ -7,11 +7,11 @@ public class CircleArrayDemo {
 		Circle [] circles;
 		circles = new Circle[5];
 		
-		for(int i = 0; i <= circles.length; i++) {
+		for(int i = 0; i < circles.length; i++) {
 			circles[i] = new Circle(i+1);
 			
 		}
-		for(int i = 0; i <= circles.length; i++) {
+		for(int i = 0; i < circles.length; i++) {
 			System.out.println(circles[i].findArea());
 		}
 
