@@ -14,8 +14,8 @@ public class DynamicArrayDemo {
 		while( (data = sc.nextInt()) >= -1) 
 			scores.add(data);
 		
-		for(int i = 0; i < scores.size(); i++) 
-			sum += scores.get(i);
+		for(int s : scores) 
+			sum += s;
 		
 		System.out.println("average score" + (sum / scores.size()));
 		
